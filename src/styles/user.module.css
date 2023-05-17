@@ -1,0 +1,72 @@
+:root {
+  --theme: lightblue;
+}
+
+.userDiv {
+  /* border: 1px solid red; */
+  position: relative;
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.userDiv:hover {
+  transform: scale(1.1);
+}
+
+.imgDiv {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgDiv svg {
+  height: 50px;
+  padding: 1rem;
+}
+
+.userInfo {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.userInfo input {
+  height: 1.8rem;
+  margin: 5px 0;
+  border: 0;
+  font-size: 1rem;
+  border-bottom: 1px solid var(--theme);
+}
+
+.userName {
+  margin: 0;
+  font-size: 1.5rem;
+  color: var(--theme);
+}
+
+.userPhone {
+  margin: 0;
+  margin-bottom: 15px;
+  font-size: 0.9rem;
+}
+
+.btnDiv {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.userInfo button {
+  height: 30px;
+  width: 65px;
+  font-size: 0.9rem;
+  border: 0;
+  border-radius: 5px;
+  margin: 5px 0;
+  background: var(--theme);
+}
