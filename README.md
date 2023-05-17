@@ -10,8 +10,8 @@ This is a react project to display the contact list of users. The data of contac
 ```git clone https://github.com/arnabBaruah009/react-contactList.git```
 
 - Install the dependencies:
-- ```cd authentication-system.git```
-- ```npm install```
+```cd authentication-system.git```
+```npm install```
 
 - Start the server:
 ```npm start```
