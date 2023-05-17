@@ -69,4 +69,9 @@
   border-radius: 5px;
   margin: 5px 0;
   background: var(--theme);
+  cursor: pointer;
+}
+
+.userInfo button:hover {
+  background: rgb(146, 201, 220);
 }
